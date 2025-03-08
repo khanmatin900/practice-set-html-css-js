@@ -20,7 +20,9 @@
 
   <!-- Question- 2 -->
   <h2 id="count">0</h2>
-  <button id="btn" onclick="incRease()">Count</button>
+  <button id="btn" onclick="incRease()">Count +1</button>
+  <button id="btn" onclick="decRease()">Count -1</button>
+
 
 
 </body>
@@ -28,6 +30,10 @@
   let count = 0;
   function incRease() {
     document.getElementById('count').innerHTML = count++;
+  }
+
+  function decRease() {
+    document.getElementById('count').innerHTML = count--;
   }
 </script>
 
