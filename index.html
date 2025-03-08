@@ -22,8 +22,9 @@
 
   <div class="container">
     <h2 id="count">0</h2>
-    <button id="btn" onclick="incRease()">Count +1</button>
-    <button id="btn" onclick="decRease()">Count -1</button>
+    <button onclick="incRease()">Count +1</button>
+    <button onclick="resetBtn()">Reset</button>
+    <button onclick="decRease()">Count -1</button>
   </div>
 
 
@@ -38,6 +39,10 @@
 
   function decRease() {
     document.getElementById('count').innerHTML = count--;
+  }
+
+  function resetBtn() {
+    document.getElementById('count').innerHTML = 0;
   }
 </script>
 

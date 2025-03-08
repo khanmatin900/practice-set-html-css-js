@@ -22,4 +22,5 @@ button {
   border-radius: 5px;
   background-color: steelblue;
   color: aliceblue;
+  cursor: pointer;
 }
