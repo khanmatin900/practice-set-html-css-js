@@ -21,32 +21,34 @@
   <!-- Question- 2 -->
 
   <div class="container">
-    <h2 id="count">0</h2>
-    <div class="box-btn">
-      <button onclick="incRease()">Count +1</button>
-      <button onclick="resetBtn()">Reset</button>
-      <button onclick="decRease()">Count -1</button>
-    </div>
-
+    <h2 id="count"></h2>
   </div>
+  <div class="box-btn">
+    <button onclick="matimKhan()">Matim Khan Info</button>
+    <button onclick="suhailSidd()">Suhail Siddiqui Info</button>
+    <button onclick="othersInfo()">Others Info</button>
+  </div>
+
+
 
 
 
 
 </body>
 <script>
-  let count = 0;
-  function incRease() {
-    document.getElementById('count').innerHTML = count++;
+  function matimKhan() {
+    document.getElementById('count').innerHTML = "Matim Khan"
   }
 
-  function decRease() {
-    document.getElementById('count').innerHTML = count--;
+  function suhailSidd() {
+    document.getElementById('count').innerText = "Suhail Siddiqui";
   }
 
-  function resetBtn() {
-    document.getElementById('count').innerHTML = 0;
+  function othersInfo() {
+    document.getElementById('count').innerHTML = "Others Info";
   }
+
+
 </script>
 
 </html>
