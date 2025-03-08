@@ -19,8 +19,16 @@
   <h3 class="heading">Heading 3</h3>
 
   <!-- Question- 2 -->
-  <button id="btn" onclick="c()">Click me!</button>
-  <h2 class="count">0</h2>
+  <h2 id="count">0</h2>
+  <button id="btn" onclick="incRease()">Count</button>
+
+
 </body>
+<script>
+  let count = 0;
+  function incRease() {
+    document.getElementById('count').innerHTML = count++;
+  }
+</script>
 
 </html>
