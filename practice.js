@@ -25,15 +25,4 @@
   // }
   // console.log("accordinto your scores, your grade was :", grade);
 
-let c = 0;
-  const btns = document.querySelector('btn');
-  const counter = document.querySelector('count');
 
-  function inc() {
-    c++;
-    ci = (ci >= 10) ? 0 : ci + 1;
-    update();
-}
-function update() {
-  count.textContent = c;
-}
