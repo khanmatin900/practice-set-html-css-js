@@ -25,4 +25,10 @@
   // }
   // console.log("accordinto your scores, your grade was :", grade);
 
+const myDiv = document.querySelector(".main-2");
+let myAudio = document.querySelector('#audio');
+myAudio.play();
 
+myDiv.addEventListener('click', function() {
+myDiv.move = myAudio;
+})
