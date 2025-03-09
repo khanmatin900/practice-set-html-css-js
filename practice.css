@@ -28,6 +28,12 @@ button {
   height: 300px;
   border: 1px solid black;
   padding: 20px;
+  border-radius: 10px;
+}
+
+.main .click {
+  margin-top: 55px;
+  color: rgb(0, 179, 255);
 }
 
 button {
@@ -37,7 +43,14 @@ button {
   background-color: steelblue;
   color: aliceblue;
   cursor: pointer;
-  margin-top: 20%;
+  margin-top: 5%;
+  font-weight: 500;
+  transition: all ease-out 0.5s;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: black;
 }
 
 .box-btn {
@@ -47,4 +60,14 @@ button {
   gap: 10px;
   margin-bottom: 100px;
   width: 100%;
+}
+
+.main-2 {
+  display: grid;
+  place-items: center;
+  width: 300px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 10px;
+  border: 1px solid black;
 }
