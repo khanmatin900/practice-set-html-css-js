@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="practice.css">
+</head>
+
+<body>
+  <!-- Question- 1
+  <div id="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aliquid quaerat ex totam vero atque ipsam
+    illo sequi laudantium itaque, fugit eos adipisci facilis provident nisi necessitatibus ut impedit veniam?</div>
+
+ Question- 2
+  <h1 class="heading">Heading 1</h1>
+  <h2 class="heading">Heading 2</h2>
+  <h3 class="heading">Heading 3</h3> -->
+
+  <!-- Question- 2 -->
+
+  <div class="container">
+    <div class="main">
+      <h1>Student Info</h1>
+      <h2 id="name"></h2>
+      <p class="father"></p>
+      <p class="qualification"></p>
+      <p class="mob-no"></p>
+      <p class="address"></p>
+
+      <p class="click">Click below button for Student info... 👇</p>
+
+      <div class="box-btn">
+        <button onclick="matimKhan()">Matim Khan</button>
+        <button onclick="suhailSidd()">Suhail Siddiqui</button>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+<script>
+  function matimKhan() {
+    document.getElementById('name').innerHTML = "Name : Matim Khan";
+    document.querySelector('.father').innerHTML = " Father's Name : Liyakat Husain";
+    document.querySelector('.qualification').innerHTML = "Qualification : Bachelor's Of Computer Application";
+    document.querySelector('.mob-no').innerHTML = "Mobile : 9936480965";
+    document.querySelector('.address').innerHTML = "Address : Mahuwar Kol, Gorakhpur";
+  }
+
+  function suhailSidd() {
+    document.getElementById('name').innerText = " Name : Suhail Siddiqui";
+    document.querySelector('.father').innerHTML = " Father's Name : Sirajuddin Siddiqui";
+    document.querySelector('.qualification').innerHTML = "Qualification : Bachelor's Of Computer Application";
+    document.querySelector('.mob-no').innerHTML = "Mobile : 9792701993";
+    document.querySelector('.address').innerHTML = "Address : Araji Medipatti, Deoria";
+  }
+
+
+
+</script>
+
+</html>
