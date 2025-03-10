@@ -25,10 +25,19 @@
   // }
   // console.log("accordinto your scores, your grade was :", grade);
 
-const myDiv = document.querySelector(".main-2");
-let myAudio = document.querySelector('#audio');
-myAudio.play();
 
-myDiv.addEventListener('click', function() {
-myDiv.move = myAudio;
-})
+  function matimKhan() {
+    document.getElementById('name').innerHTML = "Name : Matim Khan";
+    document.querySelector('.father').innerHTML = " Father's Name : Liyakat Husain";
+    document.querySelector('.qualification').innerHTML = "Qualification : Bachelor's Of Computer Application";
+    document.querySelector('.mob-no').innerHTML = "Mobile : 9936480965";
+    document.querySelector('.address').innerHTML = "Address : Mahuwar Kol, Gorakhpur";
+  }
+
+  function suhailSidd() {
+    document.getElementById('name').innerText = " Name : Suhail Siddiqui";
+    document.querySelector('.father').innerHTML = " Father's Name : Sirajuddin Siddiqui";
+    document.querySelector('.qualification').innerHTML = "Qualification : Bachelor's Of Computer Application";
+    document.querySelector('.mob-no').innerHTML = "Mobile : 9792701993";
+    document.querySelector('.address').innerHTML = "Address : Araji Medipatti, Deoria";
+  }
